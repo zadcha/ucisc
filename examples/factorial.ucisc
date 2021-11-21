@@ -1,10 +1,10 @@
-# Compute Fibonacci numbers
+# Compute factorial
 #
-# By default, computes fib(val/8) == val/21. fib(24) is the maximum
-# value that will compute correctly without overflow.
+# By default, computes factorial(val/4) == val/24.
+# 
 #
 # To run:
-#   $ ucisc examples/fib.ucisc
+#   $ ucisc examples/factorial.ucisc
 
 def stack/r1 <- copy val/0
 
